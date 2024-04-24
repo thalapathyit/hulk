@@ -1,0 +1,85 @@
+.imgbox>img{
+  width: 100%;
+  height: 60%;
+}
+.slider{
+  position: relative;
+}
+.text{
+  position: absolute;
+  bottom:250px;
+  left:280px;
+  text-align: center;
+ color:red;
+  font-size:20px;
+}
+.text>button{
+  padding:12px;
+  background-color: palevioletred;
+  color: black;
+  border-radius: 15px;
+  position: relative;
+  bottom:50px;
+  left:30px;
+  border: none;
+}
+#leftarrow{
+  position: relative;
+  right:350px;
+  top:180px;
+  font-size: 100px;
+}
+#rightarrow{
+  position: relative;
+  left:350px;
+  bottom:15px;
+  font-size: 100px;
+}
+@media screen and (max-width:600px){
+  .imgbox>img{
+    width: 100%;
+  }
+  .slider{
+    position: relative;
+    top: 2px;
+  }
+  .text{
+    position: absolute;
+    bottom:48px;
+    left:70px;
+    right:60px;
+    color:lavenderblush;
+    font-size:5px;
+    font-weight: bolder;
+  }
+  .text>p{
+    font-weight: bolder;
+    font-size:12px;
+    padding: 12px;
+
+  }
+  .text>button{
+    padding: 8px;
+    background-color: palevioletred;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    bottom:20px;
+    left:10px;
+  }
+  #leftarrow{
+    position: relative;
+    right:130px;
+    top:90px;
+    font-size:45px;
+    color: darkviolet;
+  }
+  #rightarrow{
+    position: relative;
+    color: darkviolet;
+    bottom: 15px;
+    left: 70px;
+    font-size:45px;
+  }
+}
